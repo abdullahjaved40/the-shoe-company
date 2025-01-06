@@ -24,4 +24,4 @@ Welcome to the official website repository of **The Shoe Company**. This is an e
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/the-shoe-company.git
+git clone https://github.com/abdullahjaved40/the-shoe-company.git
