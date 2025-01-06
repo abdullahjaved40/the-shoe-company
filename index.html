@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Shoe Company offers high-quality and stylish shoes for every occasion." />
+    <meta name="keywords" content="shoes, workout shoes, stylish footwear, shoe company" />
+    <title>The Shoe Company</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-black text-white">
+    <header
+      class="section-container flex items-center justify-between fixed w-full left-1/2 -translate-x-1/2 bg-black/70 backdrop-blur-sm z-10"
+    >
+      <a href="#" class="flex flex-col items-center">
+        <img class="w-24 md:w-32" src="./images/logo.png" alt="The Shoe Company logo" />
+        <p class="text-xs md:text-sm mt-2">The Shoe Company</p>
+      </a>
+      <nav class="hidden md:flex space-x-6 lg:space-x-8 lg:text-2xl">
+        <a class="font-bold relative group" href="#hero">Home
+          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-gray-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a class="font-bold relative group" href="#how-it-works">How It Works?
+          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-gray-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a class="font-bold relative group" href="#about">About
+          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-gray-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a class="font-bold relative group" href="#testimonials">Testimonials
+          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-gray-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+        <a class="font-bold relative group" href="#contact">Contact Us
+          <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-gray-400 transition-all duration-300 group-hover:w-full"></span>
+        </a>
+      </nav>
+      
+      <button class="text-5xl md:hidden" aria-label="Open Menu">≡</button>
+    </header>
+
+    <main>
+      <section
+        id="hero"
+        class="bg-[url('./images/hero-background.png')] bg-cover md:bg-contain bg-no-repeat bg-right pt-36 section-container"
+      >
+        <div
+          class="flex flex-col md:flex-row md:items-center justify-between max-w-6xl mx-auto"
+        >
+          <h1
+            class="text-6xl md:text-7xl font-bold leading-[64px] md:leading-[92px]"
+          >
+            THE <br />
+            SHOE <br />
+            COMPANY
+          </h1>
+          <div>
+            <img
+              class="w-full max-w-xl"
+              src="./images/hero-image.png"
+              alt="White shoe featured in The Shoe Company"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section-container pt-20 scroll-mt-6">
+        <h2 class="text-center text-3xl font-bold max-w-md mx-auto mb-12">
+          Have they finally made the perfect workout shoe?
+        </h2>
+        <div class="max-w-xl mx-auto pt-60 xl:pt-12 relative">
+          <img
+            class="w-full max-w-2xl rotate-6 p-8 media440:p-0 xl:rotate-0"
+            src="./images/how-it-works.png"
+            alt="Stylized shoe with design highlights"
+          />
+          <!-- The descriptive blocks for "The Heel," "The Front," and "Traction" remain unchanged -->
+        </div>
+      </section>
+
+      <section id="about" class="section-container mt-32 flex flex-col md:flex-row md:space-x-12 scroll-mt-28">
+        <h2 class="text-3xl my-6 text-center font-bold md:hidden">About Us!</h2>
+        <div
+          class="bg-[url('./images/about-us-background.png')] bg-no-repeat md:w-full self-center"
+        >
+          <img src="./images/about-shoe-company.png" alt="Stylish legs showcasing shoes" />
+        </div>
+        <div class="space-y-8 max-w-xl md:w-full">
+          <h2 class="text-6xl font-bold hidden md:block">About Us!</h2>
+          <p>THE SHOE COMPANY offers a one-stop solution to finding your perfect pair of footwear.</p>
+          <p>
+            Gone are the days of hopping from store to store. Find stylish footwear from top-tier brands
+            like DAVINCHI, PRINCESS, and SIGNATURE, all in one place.
+          </p>
+          <p>
+            From casual outings to formal events, we've got you covered. Start your journey with us today!
+          </p>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section-container mt-8 pt-8 bg-testimonial-section">
+        <h2 class="text-3xl md:text-6xl font-bold text-center">
+          What People are Saying About THE SHOE COMPANY
+        </h2>
+        <div
+          class="text-center flex flex-col items-center md:items-stretch gap-8 md:flex-row justify-between mt-16 max-w-5xl mx-auto"
+        >
+          <article class="w-60">
+            <div class="relative overflow-hidden rounded-lg group">
+              <img
+                class="w-full mb-4 transition-transform duration-300 group-hover:scale-105 group-hover:shadow-lg"
+                src="./images/testimonial-1.png"
+                alt="Customer testimonial 1"
+              />
+            </div>
+            <p>
+              “Looking for shoes that are built just for you? THE SHOE COMPANY is
+              the way to go. Love the design and build quality.”
+            </p>
+          </article>
+          <article class="w-60">
+            <div class="relative overflow-hidden rounded-lg group">
+              <img
+                class="w-full mb-4 transition-transform duration-300 group-hover:scale-105 group-hover:shadow-lg"
+                src="./images/testimonial-2.png"
+                alt="Customer testimonial 2"
+              />
+            </div>
+            <p>
+              “I love the shoes, the quality, and everything. They are worth the
+              investment!”
+            </p>
+          </article>
+          <article class="w-60">
+            <div class="relative overflow-hidden rounded-lg group">
+              <img
+                class="w-full mb-4 transition-transform duration-300 group-hover:scale-105 group-hover:shadow-lg"
+                src="./images/testimonial-3.png"
+                alt="Customer testimonial 3"
+              />
+            </div>
+            <p>
+              “They make the best and forever-lasting shoes. Superb fit and
+              comfort is literally the next level. Much recommended!”
+            </p>
+          </article>
+        </div>
+      </section>
+      
+
+      <section
+  id="contact"
+  class="section-container flex flex-col lg:flex-row items-center justify-between p-16 space-y-12 lg:space-y-0"
+>
+  <!-- Contact Information -->
+  <div class="lg:w-1/3 shrink-0">
+    <h2 class="text-4xl md:text-6xl font-bold mb-6">Contact Us</h2>
+    <address class="not-italic text-base md:text-lg leading-relaxed">
+      <strong>THE SHOE COMPANY</strong> <br />
+      Dallas, Texas, USA <br />
+      <a href="tel:+1559011209910" class="text-blue-500 hover:underline">
+        +1 5590 1120 9910
+      </a>
+    </address>
+    <div class="flex space-x-6 mt-8">
+      <!-- Social Media Links -->
+      <a
+        href="#"
+        aria-label="Facebook"
+        class="hover:text-blue-500 transition-transform transform hover:scale-110"
+      >
+        <img class="w-8 h-8" src="./images/facebook.svg" alt="Facebook icon" />
+      </a>
+      <a
+        href="#"
+        aria-label="Instagram"
+        class="hover:text-pink-500 transition-transform transform hover:scale-110"
+      >
+        <img class="w-8 h-8" src="./images/instagram.svg" alt="Instagram icon" />
+      </a>
+      <a
+        href="#"
+        aria-label="Twitch"
+        class="hover:text-purple-500 transition-transform transform hover:scale-110"
+      >
+        <img class="w-8 h-8" src="./images/twitch.svg" alt="Twitch icon" />
+      </a>
+      <a
+        href="#"
+        aria-label="YouTube"
+        class="hover:text-red-500 transition-transform transform hover:scale-110"
+      >
+        <img class="w-8 h-8" src="./images/youtube.svg" alt="YouTube icon" />
+      </a>
+    </div>
+  </div>
+
+  <!-- Google Map Embed -->
+  <div class="lg:w-2/3">
+    <iframe
+      class="w-full h-96 rounded-lg shadow-lg"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.60090726364!2d-96.87198002011303!3d32.82058616531825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX%2C%20USA!5e0!3m2!1sen!2sin!4v1679084925294!5m2!1sen!2sin"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="section-container mt-8">
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <a href="#" class="flex items-center">
+          <img class="w-14" src="./images/logo.png" alt="The Shoe Company logo" />
+          <p class="text-xs mt-2 md:mt-0 md:ml-2">The Shoe Company</p>
+        </a>
+        <p class="text-sm mt-4 md:mt-0">Made with ❤️ by Abdullah</p>
+      </div>
+    </footer>
+  </body>
+</html>
